@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Contact />
+      <div className="pt-20">
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </div>
     </main>
   );
 }
